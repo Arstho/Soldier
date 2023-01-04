@@ -23,11 +23,8 @@ const soldier = {
     },
     hurt: function () {
         this.health--;
-        if (this.health === 0){
+        if (this.health === 0) {
             console.log('Ты проиграл');
-        } 
+        }
     },
 };
-
-
-
